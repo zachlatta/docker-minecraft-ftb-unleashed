@@ -1,4 +1,4 @@
 docker-minecraft-unleashed
 ==========================
 
-Docker image for the Unleashed Minecraft modpack.
+Docker image for the FTB Unleashed Minecraft modpack.
