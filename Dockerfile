@@ -2,7 +2,7 @@ FROM zachlatta/jvm
 MAINTAINER Zach Latta <zach@zachlatta.com>
 
 RUN useradd -s /bin/bash -d /minecraft -m minecraft
-ADD http://www.creeperrepo.net/direct/FTB2/3f82143e7ddfbc55a3e5906940d2effd/modpacks%5EUnleashed%5E1_1_3%5EUnleashed-server.zip /minecraft/unleashed.zip
+ADD http://www.creeperrepo.net/FTB2/modpacks%5EUnleashed%5E1_1_7%5EUnleashed-server.zip /minecraft/unleashed.zip
 
 RUN apt-get install zip -y
 RUN cd /minecraft && unzip unleashed.zip && rm unleashed.zip
